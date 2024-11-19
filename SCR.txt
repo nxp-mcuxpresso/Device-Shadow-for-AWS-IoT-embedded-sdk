@@ -1,0 +1,12 @@
+NXP Software Content Register
+
+Package: device-shadow
+Version: 1.3.0
+Outgoing License: MIT
+License File: LICENSE
+Type of Content: source code, header files
+Description and comments: Client library for using the AWS IoT Device Shadow service on embedded devices.
+Release Location: https://github.com/nxp-mcuxpresso/device-shadow-for-aws-iot-embedded-sdk
+Origin:
+      NXP (MIT)
+      Amazon (MIT) - https://github.com/aws/Device-Shadow-for-AWS-IoT-embedded-sdk
