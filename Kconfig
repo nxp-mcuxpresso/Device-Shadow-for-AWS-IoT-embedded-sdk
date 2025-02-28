@@ -1,5 +1,5 @@
 #
-# Copyright 2024 NXP
+# Copyright 2024-2025 NXP
 #
 # SPDX-License-Identifier: MIT
 #
@@ -8,10 +8,10 @@
 menu "device-shadow"
 
     config MCUX_COMPONENT_middleware.aws_iot.device_shadow.template
-        bool "Component middleware.aws_iot.device_shadow.template"
+        bool "device_shadow.template"
         select MCUX_COMPONENT_middleware.iot_reference.logging
 
     config MCUX_COMPONENT_middleware.aws_iot.device_shadow
-        bool "Component middleware.aws_iot.device_shadow"
+        bool "device_shadow"
         select MCUX_COMPONENT_middleware.aws_iot.device_shadow.template
 endmenu
